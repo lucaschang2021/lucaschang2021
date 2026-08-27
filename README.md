@@ -49,6 +49,26 @@ Custom sources · structured retrieval · desktop delivery · memory · knowledg
 
 Multi-agent orchestration · cost-aware model routing · reliability · auditable automation
 
+## Project constellation
+
+<div align="center">
+
+<a href="https://github.com/lucaschang2021/finterminal">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=finterminal&hide_border=true" alt="FinTerminal" />
+</a>
+<a href="https://github.com/lucaschang2021/Mobius">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=Mobius&hide_border=true" alt="Mobius" />
+</a>
+
+<a href="https://github.com/lucaschang2021/FlowTracer">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=FlowTracer&hide_border=true" alt="FlowTracer" />
+</a>
+<a href="https://github.com/lucaschang2021/Rasputin">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=Rasputin&hide_border=true" alt="Rasputin" />
+</a>
+
+</div>
+
 ## What I work on
 
 - **AI infrastructure** — agents, MCP, orchestration, RAG, memory, local-first systems
@@ -94,6 +114,10 @@ Additional interests: quantitative finance · financial engineering · digital a
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucaschang2021&layout=compact&hide_border=true" alt="Top languages" />
 </p>
 
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=lucaschang2021&hide_border=true" alt="GitHub streak" />
+</div>
+
 <sub>Public GitHub activity is shown as context, not as a substitute for project quality.</sub>
 
 ## Activity signal
@@ -113,4 +137,10 @@ Additional interests: quantitative finance · financial engineering · digital a
 
 [GitHub](https://github.com/lucaschang2021) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
 
-<sub>Build useful systems. Make the work verifiable.</sub>
+<div align="center">
+
+### Build useful systems. Make the work verifiable.
+
+<img src="https://komarev.com/ghpvc/?username=lucaschang2021&style=flat-square&label=PROFILE+VIEWS" alt="Profile views" />
+
+</div>
