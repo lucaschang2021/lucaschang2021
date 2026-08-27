@@ -49,6 +49,26 @@ Python · FastAPI · Electron · React · TypeScript · Apache-2.0
 
 多 Agent 编排 · 成本感知模型路由 · 可靠性 · 可审计自动化
 
+## Project Constellation / 项目星图
+
+<div align="center">
+
+<a href="https://github.com/lucaschang2021/finterminal">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=finterminal&hide_border=true" alt="FinTerminal" />
+</a>
+<a href="https://github.com/lucaschang2021/Mobius">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=Mobius&hide_border=true" alt="Mobius" />
+</a>
+
+<a href="https://github.com/lucaschang2021/FlowTracer">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=FlowTracer&hide_border=true" alt="FlowTracer" />
+</a>
+<a href="https://github.com/lucaschang2021/Rasputin">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=Rasputin&hide_border=true" alt="Rasputin" />
+</a>
+
+</div>
+
 ## 我在做什么
 
 - **AI 基础设施** — Agents、MCP、编排、RAG、记忆、Local-first 系统
@@ -94,6 +114,10 @@ architecture → backend → frontend → integration → testing/audit → GitH
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucaschang2021&layout=compact&hide_border=true" alt="Top languages" />
 </p>
 
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=lucaschang2021&hide_border=true" alt="GitHub streak" />
+</div>
+
 <sub>公开 GitHub 活动用于提供工程活跃度背景，不替代项目本身的质量与证据。</sub>
 
 ## Activity Signal / 活动轨迹
@@ -113,4 +137,11 @@ architecture → backend → frontend → integration → testing/audit → GitH
 
 [GitHub](https://github.com/lucaschang2021) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
 
-<sub>Build useful systems. Make the work verifiable. / 构建有用的系统，让成果可以被验证。</sub>
+<div align="center">
+
+### Build useful systems. Make the work verifiable.
+#### 构建有用的系统，让成果可以被验证。
+
+<img src="https://komarev.com/ghpvc/?username=lucaschang2021&style=flat-square&label=PROFILE+VIEWS" alt="Profile views" />
+
+</div>
