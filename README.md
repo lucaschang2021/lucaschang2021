@@ -8,6 +8,15 @@ I build **AI infrastructure, agent systems, and financial research tools** — w
 
 Currently studying Finance at Shanghai Normal University and building independently across AI × finance.
 
+<p>
+  <img src="https://img.shields.io/badge/Python-Engineering-informational?logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-Backend-informational?logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/React-Frontend-informational?logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-Frontend-informational?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Electron-Desktop-informational?logo=electron&logoColor=white" alt="Electron" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-CI-informational?logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
+
 ## Selected work
 
 ### [FinTerminal](https://github.com/lucaschang2021/finterminal)
@@ -71,6 +80,15 @@ I have also submitted FinTerminal to **Codex for Open Source** as its maintainer
 I am interested in how AI computational resources — including model and token usage — can be **measured, priced, optimized, and allocated as computational capital**, connecting AI systems with economics and finance.
 
 Additional interests: quantitative finance · financial engineering · digital assets · token economics · retrieval & memory · reproducible AI research.
+
+## GitHub activity
+
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lucaschang2021&show_icons=true&hide_border=true&rank_icon=github" alt="Lucas Chang's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucaschang2021&layout=compact&hide_border=true" alt="Top languages" />
+</p>
+
+<sub>Public GitHub activity is shown as context, not as a substitute for project quality.</sub>
 
 ## Now
 
