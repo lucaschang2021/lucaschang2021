@@ -1,8 +1,14 @@
+<div align="center">
+
 # Lucas Chang
 
-**Finance × AI Infrastructure × Open Source**
+### Finance × AI Infrastructure × Open Source
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=900&center=true&vCenter=true&width=760&lines=Building+AI+Infrastructure;Engineering+Agent+Systems;Exploring+Computational+Finance;Shipping+Open-Source+Software;Making+AI+Engineering+Auditable" alt="Typing SVG" />
 
 [简体中文](README.zh-CN.md) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
+
+</div>
 
 I build **AI infrastructure, agent systems, and financial research tools** — with an emphasis on local-first software, auditable engineering, and open source.
 
@@ -89,6 +95,12 @@ Additional interests: quantitative finance · financial engineering · digital a
 </p>
 
 <sub>Public GitHub activity is shown as context, not as a substitute for project quality.</sub>
+
+## Activity signal
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucaschang2021&hide_border=true&area=true" alt="Contribution activity graph" />
+</div>
 
 ## Now
 
