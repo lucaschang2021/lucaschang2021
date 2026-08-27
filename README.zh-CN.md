@@ -8,6 +8,15 @@
 
 现就读于上海师范大学金融学专业，并以独立开发者身份持续探索 AI × 金融。
 
+<p>
+  <img src="https://img.shields.io/badge/Python-Engineering-informational?logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-Backend-informational?logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/React-Frontend-informational?logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-Frontend-informational?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Electron-Desktop-informational?logo=electron&logoColor=white" alt="Electron" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-CI-informational?logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
+
 ## 代表项目
 
 ### [FinTerminal](https://github.com/lucaschang2021/finterminal)
@@ -71,6 +80,15 @@ architecture → backend → frontend → integration → testing/audit → GitH
 我长期关注 AI 计算资源（包括模型与 Token 使用）如何被 **统一计量、定价、优化配置，并作为 computational capital 进行经济与金融分析**，尝试连接 AI 系统、经济学与金融学。
 
 其他兴趣包括：量化金融 · 金融工程 · 数字资产 · Token 经济学 · 检索与记忆 · 可复现 AI 研究。
+
+## GitHub Activity / GitHub 活动
+
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lucaschang2021&show_icons=true&hide_border=true&rank_icon=github" alt="Lucas Chang GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucaschang2021&layout=compact&hide_border=true" alt="Top languages" />
+</p>
+
+<sub>公开 GitHub 活动用于提供工程活跃度背景，不替代项目本身的质量与证据。</sub>
 
 ## Now / 当前
 
