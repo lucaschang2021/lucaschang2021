@@ -1,120 +1,86 @@
 # Lucas Chang
 
-[English](README.md) · [简体中文](README.zh-CN.md)
+**Finance × AI Infrastructure × Open Source**
 
-### Finance × AI Infrastructure × Open Source
+[简体中文](README.zh-CN.md) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
 
-> Building systems where **AI infrastructure meets financial research, open source, and rigorous engineering**.
+I build **AI infrastructure, agent systems, and financial research tools** — with an emphasis on local-first software, auditable engineering, and open source.
 
-## 👤 Identity
+Currently studying Finance at Shanghai Normal University and building independently across AI × finance.
 
-I prefer identities backed by **work, institutions, repositories, or verifiable participation**, rather than self-assigned titles.
+## Selected work
 
-| Identity | Evidence |
-| --- | --- |
-| 🎓 **Finance Undergraduate** | Finance undergraduate at Shanghai Normal University (SHNU) |
-| 💻 **Independent Developer** | Building and maintaining FinTerminal, Mobius, FlowTracer, Rasputin, and other software projects |
-| 🌐 **Open-Source Maintainer** | Primary maintainer of **FinTerminal**, an Apache-2.0 public OSS project with PR-based maintenance, CI, tests, and formal releases |
-| 🤖 **AI Infrastructure & Agent Builder** | Building MCP, agent orchestration, local-first AI, RAG, research automation, and Codex-centered engineering workflows |
-| 📈 **Computational Finance Builder** | FinTerminal combines quantitative analysis, financial data, forecasting, visualization, RAG, and agentic research |
-| 🔬 **Student Researcher** | Research interests across finance, statistics, mathematics, and AI, including LLM economics, computational-resource allocation, and token economics |
-| 🧰 **AI-assisted Engineering Workflow Builder** | Mobius and a staged Codex workflow spanning architecture, backend, frontend, integration, testing/audit, and release |
+### [FinTerminal](https://github.com/lucaschang2021/finterminal)
+**Local-first AI financial research infrastructure.**
 
-## 🌍 Official Community Participation
+MCP · quantitative analysis · RAG · agentic research · market data · forecasting · visualization · auditable data provenance
 
-I participate in **official OpenAI community channels** as a developer, builder, student, and open-source maintainer.
+Python · FastAPI · Electron · React · TypeScript · Apache-2.0
 
-These entries describe community membership or participation only — **not employment, endorsement, partnership, or representation of OpenAI**.
-
-- **OpenAI Developer Community** — participant focused on Codex, developer workflows, and AI building
-- **OpenAI Forum** — community participant
-- **OpenAI Academy — Builders** — builder community participant
-- **OpenAI Academy — Higher Education** — higher-education community participant
-- **OpenAI Official Discord** — server member; full channel access may require community verification
-- **Codex for Open Source** — application submitted as the maintainer of FinTerminal
-
-## 🚀 Featured Open-Source Project
-
-### FinTerminal
-
-**Local-first AI financial research infrastructure built around MCP, quantitative analysis, RAG, agentic research, visualization, and auditable data provenance.**
-
-FinTerminal is my primary public open-source project.
-
-**Engineering capabilities**
-
-- MCP-based research primitives
-- quantitative and statistical analysis
-- local RAG with source attribution
-- market data and forecasting
-- financial visualization and report generation
-- SHA-256-linked data provenance
-- Electron + React + TypeScript desktop application
-- Python + FastAPI backend
-- Apache-2.0 open-source licensing
-
-**OSS maintenance path**
-
-`change → pull request → CI → Ruff → pytest → desktop build → merge → release gate → packaged artifacts → SHA-256 checksums → GitHub Release`
-
-**Repository:** [lucaschang2021/finterminal](https://github.com/lucaschang2021/finterminal)
-
-## 🧠 Currently Building
+Maintained through a PR-based OSS workflow with CI, Ruff, pytest, desktop builds, version-aligned release gates, packaged artifacts, SHA-256 checksums, and GitHub Releases.
 
 ### Mobius
+**Codex-centered engineering workflow and orchestration system — in development.**
 
-A **Codex-centered engineering workflow and orchestration system** under active development.
-
-Mobius explores how AI coding agents can be organized into a disciplined engineering process spanning planning, implementation, integration, testing, review, Git operations, documentation, and long-term project knowledge.
+Exploring disciplined AI-assisted software engineering across planning, implementation, integration, testing, review, Git operations, documentation, and long-term project knowledge.
 
 ### FlowTracer
+**Information monitoring and research radar — in development.**
 
-An information-monitoring and research-radar system under development, designed around customizable sources, structured retrieval, desktop delivery, memory, and knowledge workflows.
+Custom sources · structured retrieval · desktop delivery · memory · knowledge workflows
 
 ### Rasputin
+**Experimental AI infrastructure — in development.**
 
-An experimental AI infrastructure project exploring multi-agent orchestration, cost-aware model routing, reliability, and auditable automation.
+Multi-agent orchestration · cost-aware model routing · reliability · auditable automation
 
-> Projects marked “under development” are evolving projects and are not presented as stable public releases.
+## What I work on
 
-## 🔬 Research
+- **AI infrastructure** — agents, MCP, orchestration, RAG, memory, local-first systems
+- **Computational finance** — quantitative research, financial data, forecasting, research automation
+- **AI economics** — model/token measurement, pricing, optimization, and computational-resource allocation
+- **Engineering systems** — Codex, Git worktrees, CI, testing, release gates, persistent technical documentation
 
-My academic and independent research interests connect **finance, statistics, mathematics, and artificial intelligence**.
+My preferred development path:
 
-Current directions include:
+architecture → backend → frontend → integration → testing/audit → GitHub/release
 
-- AI infrastructure and agent systems
-- LLM economics and computational-resource allocation
-- MCP and tool-using AI
-- quantitative finance and financial engineering
-- digital assets and token economics
-- financial research automation
-- retrieval, memory, and knowledge systems
-- reproducible and auditable AI workflows
+## Roles & evidence
 
-A longer-term research direction is how AI computational resources — including model/token usage — can be **measured, priced, optimized, and allocated as computational capital**.
+| Role | Evidence |
+| --- | --- |
+| **Finance undergraduate** | Shanghai Normal University (SHNU) |
+| **Independent developer** | FinTerminal, Mobius, FlowTracer, Rasputin |
+| **Open-source maintainer** | Primary maintainer of FinTerminal; Apache-2.0, CI, tests, PR workflow, formal releases |
+| **AI infrastructure & agent builder** | MCP, agent orchestration, local-first AI, RAG, Codex-centered workflows |
+| **Computational finance builder** | Quantitative analysis, financial data, forecasting and agentic research in FinTerminal |
+| **Student researcher** | Finance × statistics × mathematics × AI; LLM economics and computational-resource allocation |
 
-## 🧭 How I Build
+## Community
 
-I prefer explicit stages and auditable boundaries over monolithic AI coding sessions.
+I participate in official OpenAI community channels as a developer, builder, student, and OSS maintainer:
 
-`architecture → backend → frontend → integration → testing/audit → GitHub/release`
+**OpenAI Developer Community** · **OpenAI Forum** · **OpenAI Academy — Builders** · **OpenAI Academy — Higher Education** · **OpenAI Official Discord**
 
-My current workflow combines **Codex + Git worktrees + CI + automated testing + release gates + persistent technical documentation**.
+I have also submitted FinTerminal to **Codex for Open Source** as its maintainer.
 
-## 🎯 Current Focus
+<sub>Community participation describes membership/participation only and does not imply employment, endorsement, partnership, or representation of OpenAI.</sub>
 
-- Maintain and evolve FinTerminal as a real public OSS project
-- Build reusable Codex-centered engineering infrastructure
-- Participate in official international AI developer communities
-- Develop research-quality work across AI and finance
-- Turn projects into verifiable open-source, research, and community contributions
+## Research direction
 
-## 📫 Connect
+I am interested in how AI computational resources — including model and token usage — can be **measured, priced, optimized, and allocated as computational capital**, connecting AI systems with economics and finance.
 
-- GitHub: [@lucaschang2021](https://github.com/lucaschang2021)
-- FinTerminal: [lucaschang2021/finterminal](https://github.com/lucaschang2021/finterminal)
+Additional interests: quantitative finance · financial engineering · digital assets · token economics · retrieval & memory · reproducible AI research.
+
+## Now
+
+**Shipping:** FinTerminal  
+**Building:** Mobius · FlowTracer · Rasputin  
+**Researching:** AI computational capital allocation  
+**Participating:** international AI, OSS, and developer communities
 
 ---
 
-**Finance student · Independent developer · Open-source maintainer · AI infrastructure builder · Official-community participant**
+[GitHub](https://github.com/lucaschang2021) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
+
+<sub>Build useful systems. Make the work verifiable.</sub>
