@@ -79,7 +79,7 @@ Python · TypeScript · React · FastAPI · Tauri · PostgreSQL · Redis · Dock
 
 **Build useful systems. Make the work verifiable.**
 
-[GitHub](https://github.com/lucaschang2021) · [FlowTracer](https://github.com/lucaschang2021/FlowTracer) · [Gallop](https://github.com/lucaschang2021/gallop) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
+[GitHub](https://github.com/lucaschang2021) · [FlowTracer](https://github.com/lucaschang2021/FlowTracer) · [Möbius](https://github.com/lucaschang2021/Mobius) · [Gallop](https://github.com/lucaschang2021/gallop)
 
 <sub>Independent community contributions do not imply employment, endorsement, or official affiliation with OpenAI or any other organization.</sub>
 
