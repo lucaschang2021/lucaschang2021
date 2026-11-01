@@ -2,76 +2,85 @@
 
 # Lucas Chang
 
-**AI Systems · Information Infrastructure · Engineering Governance**
+**Independent developer · AI systems engineering · Computational finance**
 
-Independent developer · Finance undergraduate at Shanghai Normal University
+Building local-first AI software, information systems, and engineering infrastructure.
+Studying Finance at Shanghai Normal University; learning mathematics and computer science alongside independent development.
 
-[中文](README.zh-CN.md) · [GitHub projects](https://github.com/lucaschang2021?tab=repositories) · [Upstream technical discussions](#upstream-codex-contributions)
-
-*Build useful systems. Make the work verifiable.*
+[简体中文](README.zh-CN.md) · [Projects](#selected-projects) · [Codex contributions](#upstream-contributions-to-openai-codex) · [Engineering evidence](#engineering-evidence)
 
 </div>
 
 ---
 
-## What I'm building
+## Selected projects
 
-I work at the intersection of **AI systems engineering, reliable automation, and computational economics**. My focus is on software that can acquire information, govern engineering changes, and allocate limited computational resources—with explicit boundaries between **implemented behavior, verified evidence, and future plans**.
+### [FlowTracer](https://github.com/lucaschang2021/FlowTracer) — AI information acquisition & opportunity discovery
 
-| Project | Focus | Current stage |
-| :--- | :--- | :--- |
-| **[FlowTracer](https://github.com/lucaschang2021/FlowTracer)** | Adaptive information acquisition and opportunity discovery; Radar, Sources, Signals, Memory, Opportunities, and desktop delivery | **Alpha integration** · not released |
-| **[Möbius](https://github.com/lucaschang2021/Mobius)** | Architecture contracts, change governance, evidence-based verification, and controlled AI-assisted engineering | **Pre-alpha / architecture-first** |
-| **[Rasputin](https://github.com/lucaschang2021/Rasputin)** | Computational-capital allocation, policy authority, execution control, and outcome-driven recovery | **Architecture & early executable contracts** |
-| **[Gallop](https://github.com/lucaschang2021/gallop)** | Local-first, evidence-driven learning continuity and progressive mentorship | **Open-source v1.2 code baseline** |
-| **[FinTerminal](https://github.com/lucaschang2021/finterminal)** | Local-first financial research toolkit with MCP, quantitative workflows, and data provenance | **Early-stage open source** |
+**Status: Alpha integration / acceptance; not publicly released.**
 
-### Featured: FlowTracer
+A Windows desktop intelligence workspace built around **Radar → Source → acquisition → Signals → Memory / Opportunities / notifications**. It is designed to help users monitor changing information sources and surface relevant findings.
 
-A Windows desktop intelligence system built around user-defined **Radars**: collect RSS/URL sources, preserve source evidence, analyze and score content, and surface information through Signals, Memory, and Opportunities.
+- **Stack:** Python, FastAPI, Celery, PostgreSQL/pgvector, Redis, Tauri 2, React, TypeScript.
+- **Verified engineering milestones:** Static/Native backend handoff accepted; the documented independent backend baseline passed **504 tests at 89.49% coverage**. A separate Windows desktop G4 candidate passed **71 UI tests** and local installation/start/reopen checks.
+- **Still in progress:** end-to-end native integration, reliable cleanup, live-source and production-provider acceptance, interactive onboarding, and release.
 
-- **Backend:** Python · FastAPI · Celery · PostgreSQL/pgvector · Redis
-- **Desktop:** Tauri 2 · React · TypeScript · a navigable galaxy-style workspace
-- **Evidence:** [independent backend acceptance](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/78-ACQ1-INDEPENDENT-ACCEPTANCE.md) (historical: **504 tests**, **89.49% coverage**) and [G4 desktop candidate acceptance](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/FE-001-G4-ADMISSION.md) (historical: **71/71 UI tests**)
-- **Still in progress:** native end-to-end integration, real-provider/public-internet acceptance, onboarding, and release. Test results belong to their recorded commits; they are not a claim of production readiness.
+**Evidence:** [Current stage gate](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/CURRENT-GATE.md) · [Backend independent acceptance](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/78-ACQ1-INDEPENDENT-ACCEPTANCE.md) · [Desktop release candidate](https://github.com/lucaschang2021/FlowTracer/blob/main/frontend/RELEASE-CANDIDATE.md)
 
-[Repository](https://github.com/lucaschang2021/FlowTracer) · [Current stage gate](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/CURRENT-GATE.md)
+### [Möbius](https://github.com/lucaschang2021/Mobius) — Engineering governance for AI-assisted software development
 
-## Upstream Codex contributions
+**Status: pre-alpha / architecture-first.** Defines architecture contracts, change authority, evidence gates, repository workflows, and review boundaries for coding agents. **Codex-first, not Codex-only**; the project is about governing engineering changes, not merely orchestrating agents.
 
-I participate in technical discussions in **[openai/codex](https://github.com/openai/codex)**, especially runtime scheduling, background work, and Windows sandbox reliability. Selected public evidence:
+### [Rasputin](https://github.com/lucaschang2021/Rasputin) — Computational capital & AI execution control
+
+**Status: architecture and early executable contracts.** Exploring how workloads, model/tool/compute budgets, policy, outcome evidence, and recovery can be governed across heterogeneous AI execution resources. Design ambitions are not presented as shipped capabilities.
+
+### Other open-source work
+
+- **[Gallop](https://github.com/lucaschang2021/gallop)** — Local-first, evidence-driven learning continuity and mentorship infrastructure, with an append-only journal, provenance-aware learning evidence, recovery, and Obsidian projections. The repository documents a **v1.2 source baseline**; source, tags, and releases have distinct statuses.
+- **[FinTerminal](https://github.com/lucaschang2021/finterminal)** — An early-stage, Apache-2.0 local-first financial research toolkit with MCP, quantitative analysis, retrieval, and data provenance. Includes [contribution guidelines](https://github.com/lucaschang2021/finterminal/blob/main/CONTRIBUTING.md), CI, and [release-workflow PRs](https://github.com/lucaschang2021/finterminal/pull/9).
+
+## Upstream contributions to OpenAI Codex
+
+I participate in **public technical discussions and bug investigations** in [openai/codex](https://github.com/openai/codex). These are issue analyses and reproduction reports, **not claims of merged upstream code or official maintainer status**.
 
 | Discussion | My contribution |
-| :--- | :--- |
-| [#45974 — background polling and inference usage](https://github.com/openai/codex/issues/45974#issuecomment-5706485793) | Traced goal-continuation/watcher boundaries; proposed event-driven waits and regression invariants to avoid inference-only polling. |
-| [#32188 — event-driven completion wakeups](https://github.com/openai/codex/issues/32188#issuecomment-5707525658) | Examined subagent completion watchers and proposed an opt-in, exactly-once parent wake-up contract. |
-| [#17179 — Windows sandbox ACL failure](https://github.com/openai/codex/issues/17179#issuecomment-5460612183) | Reported a reproducible Windows ACL/ownership failure with logs, an elevated/unelevated A/B comparison, and a workaround. |
+| --- | --- |
+| [#45974 — long-running jobs and inference polling](https://github.com/openai/codex/issues/45974#issuecomment-5706485793) | Analyzed goal continuation and background-process lifecycle; proposed event-driven waiting and regression criteria to avoid spending model inference on deterministic polling. |
+| [#32188 — background completion wakeups](https://github.com/openai/codex/issues/32188#issuecomment-5707525658) | Traced subagent completion watchers and suggested bounded, exactly-once parent wakeup registration. |
+| [#17179 — Windows sandbox ownership/ACL failures](https://github.com/openai/codex/issues/17179#issuecomment-5460612183) | Supplied a reproducible Windows diagnostic case, permission evidence, elevated/unelevated comparison, and a documented workaround. |
 
-These are **public issue analyses and debugging contributions**, not a claim of merged upstream code, official maintainer status, employment, or OpenAI endorsement.
+My interests in coding-agent runtimes include **execution lifecycle, resource efficiency, correctness under concurrency, and observable recovery**.
 
-## How I engineer
+## Engineering evidence
 
-```text
-Problem → Architecture / contracts → Implementation → Tests
-        → Independent review → Evidence → Controlled release
-```
+Rather than treating architectural plans or test counts as proof of a finished product, I try to keep implementation, verification, and release status separate.
 
-I care about reproducibility, explicit failure states, reviewable changes, source attribution, access boundaries, and honest reporting of what is and is not verified.
-
-My open-source work includes [Gallop](https://github.com/lucaschang2021/gallop) (Apache-2.0, evidence-oriented learning systems) and [FinTerminal](https://github.com/lucaschang2021/finterminal) (Apache-2.0, CI, release and contribution workflows). I welcome focused issues, reproducible bug reports, and technical feedback.
+- **Reproducible checkpoints:** tests, code commits, failure records, migrations, and build artifacts are tied to explicit revisions where available.
+- **Explicit capability boundaries:** offline/fake-provider evidence is not represented as live production integration; accepted stages do not imply a public release.
+- **Governed changes:** architectural constraints, security assumptions, review authority, and rollback/recovery are part of the development process.
 
 ## Research interests
 
-**AI systems & economics:** measuring effective compute, model/token economics, inference efficiency, resource allocation, and verification cost.
+- **AI systems:** adaptive information acquisition, memory, coding-agent infrastructure, execution governance.
+- **AI economics:** measuring effective compute, inference cost, resource allocation, and outcome value.
+- **Finance × statistics:** empirical economics, quantitative research, and reproducible financial analysis.
 
-**Finance & quantitative research:** statistics, econometrics, market data, and reproducible computational research.
+<details>
+<summary>Languages & tooling</summary>
+
+Python · TypeScript · React · FastAPI · Tauri · PostgreSQL · Redis · Docker · Git/GitHub Actions · pytest · Ruff · Rust tooling
+
+</details>
 
 ---
 
 <div align="center">
 
-**Code is a starting point. Evidence is what makes it credible.**
+**Build useful systems. Make the work verifiable.**
 
-[FlowTracer](https://github.com/lucaschang2021/FlowTracer) · [Möbius](https://github.com/lucaschang2021/Mobius) · [Rasputin](https://github.com/lucaschang2021/Rasputin) · [Gallop](https://github.com/lucaschang2021/gallop)
+[GitHub](https://github.com/lucaschang2021) · [FlowTracer](https://github.com/lucaschang2021/FlowTracer) · [Gallop](https://github.com/lucaschang2021/gallop) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
+
+<sub>Independent community contributions do not imply employment, endorsement, or official affiliation with OpenAI or any other organization.</sub>
 
 </div>
