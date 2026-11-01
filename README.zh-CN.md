@@ -2,146 +2,76 @@
 
 # Lucas Chang
 
-### 金融 × AI 基础设施 × 开源
+**AI 系统 · 信息基础设施 · 工程治理**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=900&center=true&vCenter=true&width=760&lines=Building+AI+Infrastructure;Engineering+Agent+Systems;Exploring+Computational+Finance;Shipping+Open-Source+Software;Making+AI+Engineering+Auditable" alt="Typing SVG" />
+独立开发者 · 上海师范大学金融学本科生
 
-[English](README.md) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
+[English](README.md) · [项目仓库](https://github.com/lucaschang2021?tab=repositories) · [Codex 技术贡献](#codex-上游技术贡献)
 
-</div>
-
-我构建 **AI 基础设施、Agent 系统与金融研究工具**，重点关注 Local-first 软件、可审计工程与开源。
-
-现就读于上海师范大学金融学专业，并以独立开发者身份持续探索 AI × 金融。
-
-<p>
-  <img src="https://img.shields.io/badge/Python-Engineering-informational?logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-Backend-informational?logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/React-Frontend-informational?logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-Frontend-informational?logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Electron-Desktop-informational?logo=electron&logoColor=white" alt="Electron" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-CI-informational?logo=githubactions&logoColor=white" alt="GitHub Actions" />
-</p>
-
-## 代表项目
-
-### [FinTerminal](https://github.com/lucaschang2021/finterminal)
-**Local-first AI 金融研究基础设施。**
-
-MCP · 量化分析 · RAG · Agentic Research · 市场数据 · 预测 · 可视化 · 可审计数据溯源
-
-Python · FastAPI · Electron · React · TypeScript · Apache-2.0
-
-采用基于 PR 的开源维护流程，已建立 CI、Ruff、pytest、桌面构建、版本一致性 Release Gate、打包产物、SHA-256 checksums 与 GitHub Releases。
-
-### Mobius
-**以 Codex 为核心的工程工作流与编排系统 — 开发中。**
-
-探索将 AI coding agents 纳入严谨的软件工程流程，覆盖规划、实现、整合、测试、审查、Git 操作、技术文档与长期项目知识。
-
-### FlowTracer
-**信息监控与研究雷达 — 开发中。**
-
-自定义信息源 · 结构化检索 · 桌面推送 · 记忆 · 知识工作流
-
-### Rasputin
-**实验性 AI 基础设施 — 开发中。**
-
-多 Agent 编排 · 成本感知模型路由 · 可靠性 · 可审计自动化
-
-## Project Constellation / 项目星图
-
-<div align="center">
-
-<a href="https://github.com/lucaschang2021/finterminal">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=finterminal&hide_border=true" alt="FinTerminal" />
-</a>
-<a href="https://github.com/lucaschang2021/Mobius">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=Mobius&hide_border=true" alt="Mobius" />
-</a>
-
-<a href="https://github.com/lucaschang2021/FlowTracer">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=FlowTracer&hide_border=true" alt="FlowTracer" />
-</a>
-<a href="https://github.com/lucaschang2021/Rasputin">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=Rasputin&hide_border=true" alt="Rasputin" />
-</a>
+*构建有用的系统，让成果能够被验证。*
 
 </div>
-
-## 我在做什么
-
-- **AI 基础设施** — Agents、MCP、编排、RAG、记忆、Local-first 系统
-- **计算金融** — 量化研究、金融数据、预测、研究自动化
-- **AI 经济学** — 模型/Token 的计量、定价、优化与计算资源配置
-- **工程系统** — Codex、Git worktrees、CI、测试、Release Gates、长期技术文档
-
-我偏好的开发链路：
-
-architecture → backend → frontend → integration → testing/audit → GitHub/release
-
-## 身份与依据
-
-| 身份 | 依据 |
-| --- | --- |
-| **金融学本科生** | 上海师范大学（SHNU） |
-| **独立开发者** | FinTerminal、Mobius、FlowTracer、Rasputin |
-| **开源维护者** | FinTerminal 主要维护者；Apache-2.0、CI、测试、PR 工作流与正式 Release |
-| **AI 基础设施与 Agent Builder** | MCP、Agent 编排、Local-first AI、RAG、Codex-centered workflows |
-| **计算金融开发者** | FinTerminal 中的量化分析、金融数据、预测与 Agentic Research |
-| **学生研究者** | 金融 × 统计 × 数学 × AI；LLM 经济学与计算资源配置 |
-
-## 社区
-
-我以开发者、Builder、学生与 OSS 维护者身份参与 OpenAI 官方社区体系：
-
-**OpenAI Developer Community** · **OpenAI Forum** · **OpenAI Academy — Builders** · **OpenAI Academy — Higher Education** · **OpenAI Official Discord**
-
-同时，我已以 FinTerminal 维护者身份提交 **Codex for Open Source** 申请。
-
-<sub>上述内容仅描述社区成员/参与身份，不代表 OpenAI 雇佣、官方背书、合作关系或官方代表身份。</sub>
-
-## 研究方向
-
-我长期关注 AI 计算资源（包括模型与 Token 使用）如何被 **统一计量、定价、优化配置，并作为 computational capital 进行经济与金融分析**，尝试连接 AI 系统、经济学与金融学。
-
-其他兴趣包括：量化金融 · 金融工程 · 数字资产 · Token 经济学 · 检索与记忆 · 可复现 AI 研究。
-
-## GitHub Activity / GitHub 活动
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lucaschang2021&show_icons=true&hide_border=true&rank_icon=github" alt="Lucas Chang GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucaschang2021&layout=compact&hide_border=true" alt="Top languages" />
-</p>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=lucaschang2021&hide_border=true" alt="GitHub streak" />
-</div>
-
-<sub>公开 GitHub 活动用于提供工程活跃度背景，不替代项目本身的质量与证据。</sub>
-
-## Activity Signal / 活动轨迹
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucaschang2021&hide_border=true&area=true" alt="Contribution activity graph" />
-</div>
-
-## Now / 当前
-
-**Shipping：** FinTerminal  
-**Building：** Mobius · FlowTracer · Rasputin  
-**Researching：** AI computational capital allocation  
-**Participating：** 国际 AI、OSS 与开发者社区
 
 ---
 
-[GitHub](https://github.com/lucaschang2021) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
+## 我正在构建什么
+
+我关注 **AI 系统工程、可靠自动化与计算经济学** 的交叉：构建能够获取信息、治理软件变更、合理配置有限算力资源的系统。尤其重视将 **已实现功能、已经核实的证据与未来规划** 严格区分。
+
+| 项目 | 方向 | 当前阶段 |
+| :--- | :--- | :--- |
+| **[FlowTracer](https://github.com/lucaschang2021/FlowTracer)** | 自适应信息获取与机会发现；Radar、Source、Signal、Memory、Opportunity 与桌面交付 | **Alpha 集成阶段** · 尚未发布 |
+| **[Möbius](https://github.com/lucaschang2021/Mobius)** | 架构契约、变更治理、证据验证与受控 AI 软件工程 | **Pre-alpha / 架构先行** |
+| **[Rasputin](https://github.com/lucaschang2021/Rasputin)** | 计算资本配置、策略授权、执行控制与结果驱动恢复 | **架构与早期可执行契约** |
+| **[Gallop](https://github.com/lucaschang2021/gallop)** | 本地优先、证据驱动的学习连续性与渐进式导师系统 | **开源 v1.2 源码基线** |
+| **[FinTerminal](https://github.com/lucaschang2021/finterminal)** | MCP、量化研究与数据溯源的本地金融研究工具 | **早期开源项目** |
+
+### 重点项目：FlowTracer
+
+围绕用户定义的 **Radar** 构建 Windows 桌面情报系统：采集 RSS/URL 信息源、保存原始证据、分析与评分内容，并通过 Signal、Memory 和 Opportunity 呈现高价值信息。
+
+- **后端：** Python · FastAPI · Celery · PostgreSQL/pgvector · Redis
+- **桌面端：** Tauri 2 · React · TypeScript · 星图式导航工作台
+- **可核验证据：** [后端独立验收记录](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/78-ACQ1-INDEPENDENT-ACCEPTANCE.md)（历史记录 **504 项测试通过、89.49% 覆盖率**）；[G4 桌面候选验收](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/FE-001-G4-ADMISSION.md)（历史记录 **71/71 项 UI 测试通过**）
+- **尚未完成：** 完整原生业务集成、真实服务商与公网采集验收、交互式教程和正式发布。历史测试数据对应特定提交，不代表生产就绪。
+
+[查看仓库](https://github.com/lucaschang2021/FlowTracer) · [当前阶段闸门](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/CURRENT-GATE.md)
+
+## Codex 上游技术贡献
+
+我参与 **[openai/codex](https://github.com/openai/codex)** 的公开技术讨论，主要关注运行时调度、后台任务完成事件和 Windows Sandbox 可靠性。以下内容均可直接核对：
+
+| 讨论 | 我的具体工作 |
+| :--- | :--- |
+| [#45974 — 长任务轮询与模型额度消耗](https://github.com/openai/codex/issues/45974#issuecomment-5706485793) | 分析 Goal Continuation / Watcher 边界，提出事件驱动等待机制与回归约束，减少无效推理轮询。 |
+| [#32188 — 后台任务完成唤醒](https://github.com/openai/codex/issues/32188#issuecomment-5707525658) | 分析 Subagent 完成事件与父线程唤醒路径，提出按需注册、恰好一次触发的改进思路。 |
+| [#17179 — Windows Sandbox ACL 故障](https://github.com/openai/codex/issues/17179#issuecomment-5460612183) | 提供故障日志、权限对照实验、可复现症状和有效的临时解决办法。 |
+
+以上属于**公开 Issue 技术分析与调试贡献**，不代表代码已被上游合并，也不代表 OpenAI 官方维护者、雇员或合作伙伴身份。
+
+## 我的工程方法
+
+```text
+问题 → 架构 / 契约 → 实现 → 测试
+     → 独立审查 → 证据 → 受控发布
+```
+
+我重视可复现性、明确的失败状态、可审查的变更、来源溯源、权限边界，以及对未验证能力的如实说明。
+
+我的开源工作还包括 [Gallop](https://github.com/lucaschang2021/gallop)（Apache-2.0、学习证据与连续性系统）和 [FinTerminal](https://github.com/lucaschang2021/finterminal)（Apache-2.0、CI 与发布流程）。欢迎针对具体技术问题提交 Issue、复现记录和改进建议。
+
+## 研究兴趣
+
+**AI 系统与经济学：** 有效算力计量、模型与 Token 经济学、推理效率、计算资源配置和验证成本。
+
+**金融与量化研究：** 统计、计量经济学、市场数据与可复现计算研究。
+
+---
 
 <div align="center">
 
-### Build useful systems. Make the work verifiable.
-#### 构建有用的系统，让成果可以被验证。
+**代码是起点，证据使成果可信。**
 
-<img src="https://komarev.com/ghpvc/?username=lucaschang2021&style=flat-square&label=PROFILE+VIEWS" alt="Profile views" />
+[FlowTracer](https://github.com/lucaschang2021/FlowTracer) · [Möbius](https://github.com/lucaschang2021/Mobius) · [Rasputin](https://github.com/lucaschang2021/Rasputin) · [Gallop](https://github.com/lucaschang2021/gallop)
 
 </div>
