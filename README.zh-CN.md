@@ -2,76 +2,86 @@
 
 # Lucas Chang
 
-**AI 系统 · 信息基础设施 · 工程治理**
+**独立开发者 · AI 系统工程 · 计算金融**
 
-独立开发者 · 上海师范大学金融学本科生
+构建本地优先的 AI 软件、信息系统与工程基础设施。
+上海师范大学金融学本科在读，同时学习数学、计算机科学，并开展独立软件开发。
 
-[English](README.md) · [项目仓库](https://github.com/lucaschang2021?tab=repositories) · [Codex 技术贡献](#codex-上游技术贡献)
-
-*构建有用的系统，让成果能够被验证。*
+[English](README.md) · [代表项目](#代表项目) · [Codex 上游贡献](#参与-openai-codex-上游技术讨论) · [工程证据](#工程证据)
 
 </div>
 
 ---
 
-## 我正在构建什么
+## 代表项目
 
-我关注 **AI 系统工程、可靠自动化与计算经济学** 的交叉：构建能够获取信息、治理软件变更、合理配置有限算力资源的系统。尤其重视将 **已实现功能、已经核实的证据与未来规划** 严格区分。
+### [FlowTracer](https://github.com/lucaschang2021/FlowTracer) — 自适应信息获取与机会发现引擎
 
-| 项目 | 方向 | 当前阶段 |
-| :--- | :--- | :--- |
-| **[FlowTracer](https://github.com/lucaschang2021/FlowTracer)** | 自适应信息获取与机会发现；Radar、Source、Signal、Memory、Opportunity 与桌面交付 | **Alpha 集成阶段** · 尚未发布 |
-| **[Möbius](https://github.com/lucaschang2021/Mobius)** | 架构契约、变更治理、证据验证与受控 AI 软件工程 | **Pre-alpha / 架构先行** |
-| **[Rasputin](https://github.com/lucaschang2021/Rasputin)** | 计算资本配置、策略授权、执行控制与结果驱动恢复 | **架构与早期可执行契约** |
-| **[Gallop](https://github.com/lucaschang2021/gallop)** | 本地优先、证据驱动的学习连续性与渐进式导师系统 | **开源 v1.2 源码基线** |
-| **[FinTerminal](https://github.com/lucaschang2021/finterminal)** | MCP、量化研究与数据溯源的本地金融研究工具 | **早期开源项目** |
+**状态：Alpha 集成验收阶段，尚未正式发布。**
 
-### 重点项目：FlowTracer
+Windows 桌面 AI 情报工作台，围绕 **Radar → Source → 采集 → Signals → Memory / Opportunities / 通知** 构建，旨在持续关注动态信息源，识别与沉淀有价值的信息。
 
-围绕用户定义的 **Radar** 构建 Windows 桌面情报系统：采集 RSS/URL 信息源、保存原始证据、分析与评分内容，并通过 Signal、Memory 和 Opportunity 呈现高价值信息。
+- **技术栈：** Python、FastAPI、Celery、PostgreSQL/pgvector、Redis、Tauri 2、React、TypeScript。
+- **已记录的工程证据：** Static/Native 后端通过独立交接验收，指定历史基线 **504 项测试通过、覆盖率 89.49%**；另有 Windows G4 桌面候选 **71 项 UI 测试通过**及本地安装、启动、重开证据。
+- **尚待完成：** 完整原生集成业务闭环、自动清理可靠性、真实信息源与商业模型验收、交互式引导和正式发布。
 
-- **后端：** Python · FastAPI · Celery · PostgreSQL/pgvector · Redis
-- **桌面端：** Tauri 2 · React · TypeScript · 星图式导航工作台
-- **可核验证据：** [后端独立验收记录](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/78-ACQ1-INDEPENDENT-ACCEPTANCE.md)（历史记录 **504 项测试通过、89.49% 覆盖率**）；[G4 桌面候选验收](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/FE-001-G4-ADMISSION.md)（历史记录 **71/71 项 UI 测试通过**）
-- **尚未完成：** 完整原生业务集成、真实服务商与公网采集验收、交互式教程和正式发布。历史测试数据对应特定提交，不代表生产就绪。
+**证据入口：** [当前阶段闸门](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/CURRENT-GATE.md) · [后端独立验收](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/78-ACQ1-INDEPENDENT-ACCEPTANCE.md) · [桌面发行候选记录](https://github.com/lucaschang2021/FlowTracer/blob/main/frontend/RELEASE-CANDIDATE.md)
 
-[查看仓库](https://github.com/lucaschang2021/FlowTracer) · [当前阶段闸门](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/CURRENT-GATE.md)
+### [Möbius](https://github.com/lucaschang2021/Mobius) — AI 软件工程治理
 
-## Codex 上游技术贡献
+**状态：Pre-alpha，架构先行。** 探索以架构合同、变更授权、测试证据、仓库工作流和审查边界治理 AI coding agents 对软件系统的持续修改。**Codex-first，而非 Codex-only**；核心不是简单的多 Agent 编排。
 
-我参与 **[openai/codex](https://github.com/openai/codex)** 的公开技术讨论，主要关注运行时调度、后台任务完成事件和 Windows Sandbox 可靠性。以下内容均可直接核对：
+### [Rasputin](https://github.com/lucaschang2021/Rasputin) — 计算资本与 AI 执行控制
 
-| 讨论 | 我的具体工作 |
-| :--- | :--- |
-| [#45974 — 长任务轮询与模型额度消耗](https://github.com/openai/codex/issues/45974#issuecomment-5706485793) | 分析 Goal Continuation / Watcher 边界，提出事件驱动等待机制与回归约束，减少无效推理轮询。 |
-| [#32188 — 后台任务完成唤醒](https://github.com/openai/codex/issues/32188#issuecomment-5707525658) | 分析 Subagent 完成事件与父线程唤醒路径，提出按需注册、恰好一次触发的改进思路。 |
-| [#17179 — Windows Sandbox ACL 故障](https://github.com/openai/codex/issues/17179#issuecomment-5460612183) | 提供故障日志、权限对照实验、可复现症状和有效的临时解决办法。 |
+**状态：架构与早期可执行合同。** 研究如何在预算、模型/工具/算力限制、策略权限和风险约束下配置 AI 工作负载，并使用真实结果与恢复机制反馈决策。架构目标不等于已经交付的功能。
 
-以上属于**公开 Issue 技术分析与调试贡献**，不代表代码已被上游合并，也不代表 OpenAI 官方维护者、雇员或合作伙伴身份。
+### 其他开源作品
 
-## 我的工程方法
+- **[Gallop](https://github.com/lucaschang2021/gallop)** — 本地优先、证据驱动的学习连续性与导师治理基础设施，涵盖追加式 Journal、证据来源区分、恢复及 Obsidian 投影。仓库记载 **v1.2 源码基线**；不混淆源码、Tag 与正式 Release 的状态。
+- **[FinTerminal](https://github.com/lucaschang2021/finterminal)** — Apache-2.0 许可的早期本地金融研究工具，包含 MCP、量化分析、检索和数据溯源；已有 [贡献指南](https://github.com/lucaschang2021/finterminal/blob/main/CONTRIBUTING.md)、CI 和 [发行流程 PR](https://github.com/lucaschang2021/finterminal/pull/9)。
 
-```text
-问题 → 架构 / 契约 → 实现 → 测试
-     → 独立审查 → 证据 → 受控发布
-```
+## 参与 OpenAI Codex 上游技术讨论
 
-我重视可复现性、明确的失败状态、可审查的变更、来源溯源、权限边界，以及对未验证能力的如实说明。
+我在 [openai/codex](https://github.com/openai/codex) 参与过**公开技术讨论、源码分析及故障复现**。以下属于 Issue 技术贡献，**不代表已有合并的上游代码 PR，也不代表 OpenAI 官方维护者身份**。
 
-我的开源工作还包括 [Gallop](https://github.com/lucaschang2021/gallop)（Apache-2.0、学习证据与连续性系统）和 [FinTerminal](https://github.com/lucaschang2021/finterminal)（Apache-2.0、CI 与发布流程）。欢迎针对具体技术问题提交 Issue、复现记录和改进建议。
+| 讨论 | 我的贡献 |
+| --- | --- |
+| [#45974 — 长任务推理轮询与额度消耗](https://github.com/openai/codex/issues/45974#issuecomment-5706485793) | 分析 Goal Continuation 与后台任务生命周期，提出事件驱动等待及回归测试思路，避免用模型推理进行确定性轮询。 |
+| [#32188 — 后台任务完成唤醒](https://github.com/openai/codex/issues/32188#issuecomment-5707525658) | 分析子 Agent 完成监听器，提出有界且避免重复唤醒的父 Agent 完成通知方案。 |
+| [#17179 — Windows Sandbox 所有权与 ACL 问题](https://github.com/openai/codex/issues/17179#issuecomment-5460612183) | 提供 Windows 可复现诊断、权限证据、Elevated/Unelevated 对照及有效缓解方法。 |
+
+我重点关注 coding-agent runtime 的**执行生命周期、资源效率、并发正确性与可观测恢复**。
+
+## 工程证据
+
+我尽量将设计计划、实际实现、历史验收与正式发布严格区分，而不是只展示项目概念或测试数量。
+
+- **可追溯检查点：** 在可行时将测试、代码提交、失败记录、迁移与构建产物绑定到明确版本。
+- **明确能力边界：** 离线/Fake Provider 测试不等于真实生产接入；阶段验收不等于正式发布。
+- **受治理的变更：** 在研发过程中重视架构约束、安全边界、审查授权与失败恢复。
 
 ## 研究兴趣
 
-**AI 系统与经济学：** 有效算力计量、模型与 Token 经济学、推理效率、计算资源配置和验证成本。
+- **AI 系统：** 自适应信息获取、记忆、coding-agent 基础设施、执行治理。
+- **AI 经济学：** 有效算力计量、推理成本、计算资源配置与结果价值。
+- **金融 × 统计：** 实证经济学、量化研究与可复现的金融分析。
 
-**金融与量化研究：** 统计、计量经济学、市场数据与可复现计算研究。
+<details>
+<summary>语言与工具</summary>
+
+Python · TypeScript · React · FastAPI · Tauri · PostgreSQL · Redis · Docker · Git/GitHub Actions · pytest · Ruff · Rust 工具链
+
+</details>
 
 ---
 
 <div align="center">
 
-**代码是起点，证据使成果可信。**
+**Build useful systems. Make the work verifiable.**  
+**构建有用的系统，让成果可以被验证。**
 
-[FlowTracer](https://github.com/lucaschang2021/FlowTracer) · [Möbius](https://github.com/lucaschang2021/Mobius) · [Rasputin](https://github.com/lucaschang2021/Rasputin) · [Gallop](https://github.com/lucaschang2021/gallop)
+[GitHub](https://github.com/lucaschang2021) · [FlowTracer](https://github.com/lucaschang2021/FlowTracer) · [Gallop](https://github.com/lucaschang2021/gallop) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
+
+<sub>独立的社区贡献不代表与 OpenAI 或其他机构存在雇佣、官方背书或官方关联。</sub>
 
 </div>
