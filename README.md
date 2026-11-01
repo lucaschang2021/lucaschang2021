@@ -2,145 +2,76 @@
 
 # Lucas Chang
 
-### Finance × AI Infrastructure × Open Source
+**AI Systems · Information Infrastructure · Engineering Governance**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=900&center=true&vCenter=true&width=760&lines=Building+AI+Infrastructure;Engineering+Agent+Systems;Exploring+Computational+Finance;Shipping+Open-Source+Software;Making+AI+Engineering+Auditable" alt="Typing SVG" />
+Independent developer · Finance undergraduate at Shanghai Normal University
 
-[简体中文](README.zh-CN.md) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
+[中文](README.zh-CN.md) · [GitHub projects](https://github.com/lucaschang2021?tab=repositories) · [Upstream technical discussions](#upstream-codex-contributions)
 
-</div>
-
-I build **AI infrastructure, agent systems, and financial research tools** — with an emphasis on local-first software, auditable engineering, and open source.
-
-Currently studying Finance at Shanghai Normal University and building independently across AI × finance.
-
-<p>
-  <img src="https://img.shields.io/badge/Python-Engineering-informational?logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-Backend-informational?logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/React-Frontend-informational?logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-Frontend-informational?logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Electron-Desktop-informational?logo=electron&logoColor=white" alt="Electron" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-CI-informational?logo=githubactions&logoColor=white" alt="GitHub Actions" />
-</p>
-
-## Selected work
-
-### [FinTerminal](https://github.com/lucaschang2021/finterminal)
-**Local-first AI financial research infrastructure.**
-
-MCP · quantitative analysis · RAG · agentic research · market data · forecasting · visualization · auditable data provenance
-
-Python · FastAPI · Electron · React · TypeScript · Apache-2.0
-
-Maintained through a PR-based OSS workflow with CI, Ruff, pytest, desktop builds, version-aligned release gates, packaged artifacts, SHA-256 checksums, and GitHub Releases.
-
-### Mobius
-**Codex-centered engineering workflow and orchestration system — in development.**
-
-Exploring disciplined AI-assisted software engineering across planning, implementation, integration, testing, review, Git operations, documentation, and long-term project knowledge.
-
-### FlowTracer
-**Information monitoring and research radar — in development.**
-
-Custom sources · structured retrieval · desktop delivery · memory · knowledge workflows
-
-### Rasputin
-**Experimental AI infrastructure — in development.**
-
-Multi-agent orchestration · cost-aware model routing · reliability · auditable automation
-
-## Project constellation
-
-<div align="center">
-
-<a href="https://github.com/lucaschang2021/finterminal">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=finterminal&hide_border=true" alt="FinTerminal" />
-</a>
-<a href="https://github.com/lucaschang2021/Mobius">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=Mobius&hide_border=true" alt="Mobius" />
-</a>
-
-<a href="https://github.com/lucaschang2021/FlowTracer">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=FlowTracer&hide_border=true" alt="FlowTracer" />
-</a>
-<a href="https://github.com/lucaschang2021/Rasputin">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lucaschang2021&repo=Rasputin&hide_border=true" alt="Rasputin" />
-</a>
+*Build useful systems. Make the work verifiable.*
 
 </div>
-
-## What I work on
-
-- **AI infrastructure** — agents, MCP, orchestration, RAG, memory, local-first systems
-- **Computational finance** — quantitative research, financial data, forecasting, research automation
-- **AI economics** — model/token measurement, pricing, optimization, and computational-resource allocation
-- **Engineering systems** — Codex, Git worktrees, CI, testing, release gates, persistent technical documentation
-
-My preferred development path:
-
-architecture → backend → frontend → integration → testing/audit → GitHub/release
-
-## Roles & evidence
-
-| Role | Evidence |
-| --- | --- |
-| **Finance undergraduate** | Shanghai Normal University (SHNU) |
-| **Independent developer** | FinTerminal, Mobius, FlowTracer, Rasputin |
-| **Open-source maintainer** | Primary maintainer of FinTerminal; Apache-2.0, CI, tests, PR workflow, formal releases |
-| **AI infrastructure & agent builder** | MCP, agent orchestration, local-first AI, RAG, Codex-centered workflows |
-| **Computational finance builder** | Quantitative analysis, financial data, forecasting and agentic research in FinTerminal |
-| **Student researcher** | Finance × statistics × mathematics × AI; LLM economics and computational-resource allocation |
-
-## Community
-
-I participate in official OpenAI community channels as a developer, builder, student, and OSS maintainer:
-
-**OpenAI Developer Community** · **OpenAI Forum** · **OpenAI Academy — Builders** · **OpenAI Academy — Higher Education** · **OpenAI Official Discord**
-
-I have also submitted FinTerminal to **Codex for Open Source** as its maintainer.
-
-<sub>Community participation describes membership/participation only and does not imply employment, endorsement, partnership, or representation of OpenAI.</sub>
-
-## Research direction
-
-I am interested in how AI computational resources — including model and token usage — can be **measured, priced, optimized, and allocated as computational capital**, connecting AI systems with economics and finance.
-
-Additional interests: quantitative finance · financial engineering · digital assets · token economics · retrieval & memory · reproducible AI research.
-
-## GitHub activity
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lucaschang2021&show_icons=true&hide_border=true&rank_icon=github" alt="Lucas Chang's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucaschang2021&layout=compact&hide_border=true" alt="Top languages" />
-</p>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=lucaschang2021&hide_border=true" alt="GitHub streak" />
-</div>
-
-<sub>Public GitHub activity is shown as context, not as a substitute for project quality.</sub>
-
-## Activity signal
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucaschang2021&hide_border=true&area=true" alt="Contribution activity graph" />
-</div>
-
-## Now
-
-**Shipping:** FinTerminal  
-**Building:** Mobius · FlowTracer · Rasputin  
-**Researching:** AI computational capital allocation  
-**Participating:** international AI, OSS, and developer communities
 
 ---
 
-[GitHub](https://github.com/lucaschang2021) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
+## What I'm building
+
+I work at the intersection of **AI systems engineering, reliable automation, and computational economics**. My focus is on software that can acquire information, govern engineering changes, and allocate limited computational resources—with explicit boundaries between **implemented behavior, verified evidence, and future plans**.
+
+| Project | Focus | Current stage |
+| :--- | :--- | :--- |
+| **[FlowTracer](https://github.com/lucaschang2021/FlowTracer)** | Adaptive information acquisition and opportunity discovery; Radar, Sources, Signals, Memory, Opportunities, and desktop delivery | **Alpha integration** · not released |
+| **[Möbius](https://github.com/lucaschang2021/Mobius)** | Architecture contracts, change governance, evidence-based verification, and controlled AI-assisted engineering | **Pre-alpha / architecture-first** |
+| **[Rasputin](https://github.com/lucaschang2021/Rasputin)** | Computational-capital allocation, policy authority, execution control, and outcome-driven recovery | **Architecture & early executable contracts** |
+| **[Gallop](https://github.com/lucaschang2021/gallop)** | Local-first, evidence-driven learning continuity and progressive mentorship | **Open-source v1.2 code baseline** |
+| **[FinTerminal](https://github.com/lucaschang2021/finterminal)** | Local-first financial research toolkit with MCP, quantitative workflows, and data provenance | **Early-stage open source** |
+
+### Featured: FlowTracer
+
+A Windows desktop intelligence system built around user-defined **Radars**: collect RSS/URL sources, preserve source evidence, analyze and score content, and surface information through Signals, Memory, and Opportunities.
+
+- **Backend:** Python · FastAPI · Celery · PostgreSQL/pgvector · Redis
+- **Desktop:** Tauri 2 · React · TypeScript · a navigable galaxy-style workspace
+- **Evidence:** [independent backend acceptance](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/78-ACQ1-INDEPENDENT-ACCEPTANCE.md) (historical: **504 tests**, **89.49% coverage**) and [G4 desktop candidate acceptance](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/FE-001-G4-ADMISSION.md) (historical: **71/71 UI tests**)
+- **Still in progress:** native end-to-end integration, real-provider/public-internet acceptance, onboarding, and release. Test results belong to their recorded commits; they are not a claim of production readiness.
+
+[Repository](https://github.com/lucaschang2021/FlowTracer) · [Current stage gate](https://github.com/lucaschang2021/FlowTracer/blob/main/docs/CURRENT-GATE.md)
+
+## Upstream Codex contributions
+
+I participate in technical discussions in **[openai/codex](https://github.com/openai/codex)**, especially runtime scheduling, background work, and Windows sandbox reliability. Selected public evidence:
+
+| Discussion | My contribution |
+| :--- | :--- |
+| [#45974 — background polling and inference usage](https://github.com/openai/codex/issues/45974#issuecomment-5706485793) | Traced goal-continuation/watcher boundaries; proposed event-driven waits and regression invariants to avoid inference-only polling. |
+| [#32188 — event-driven completion wakeups](https://github.com/openai/codex/issues/32188#issuecomment-5707525658) | Examined subagent completion watchers and proposed an opt-in, exactly-once parent wake-up contract. |
+| [#17179 — Windows sandbox ACL failure](https://github.com/openai/codex/issues/17179#issuecomment-5460612183) | Reported a reproducible Windows ACL/ownership failure with logs, an elevated/unelevated A/B comparison, and a workaround. |
+
+These are **public issue analyses and debugging contributions**, not a claim of merged upstream code, official maintainer status, employment, or OpenAI endorsement.
+
+## How I engineer
+
+```text
+Problem → Architecture / contracts → Implementation → Tests
+        → Independent review → Evidence → Controlled release
+```
+
+I care about reproducibility, explicit failure states, reviewable changes, source attribution, access boundaries, and honest reporting of what is and is not verified.
+
+My open-source work includes [Gallop](https://github.com/lucaschang2021/gallop) (Apache-2.0, evidence-oriented learning systems) and [FinTerminal](https://github.com/lucaschang2021/finterminal) (Apache-2.0, CI, release and contribution workflows). I welcome focused issues, reproducible bug reports, and technical feedback.
+
+## Research interests
+
+**AI systems & economics:** measuring effective compute, model/token economics, inference efficiency, resource allocation, and verification cost.
+
+**Finance & quantitative research:** statistics, econometrics, market data, and reproducible computational research.
+
+---
 
 <div align="center">
 
-### Build useful systems. Make the work verifiable.
+**Code is a starting point. Evidence is what makes it credible.**
 
-<img src="https://komarev.com/ghpvc/?username=lucaschang2021&style=flat-square&label=PROFILE+VIEWS" alt="Profile views" />
+[FlowTracer](https://github.com/lucaschang2021/FlowTracer) · [Möbius](https://github.com/lucaschang2021/Mobius) · [Rasputin](https://github.com/lucaschang2021/Rasputin) · [Gallop](https://github.com/lucaschang2021/gallop)
 
 </div>
