@@ -80,7 +80,7 @@ Python · TypeScript · React · FastAPI · Tauri · PostgreSQL · Redis · Dock
 **Build useful systems. Make the work verifiable.**  
 **构建有用的系统，让成果可以被验证。**
 
-[GitHub](https://github.com/lucaschang2021) · [FlowTracer](https://github.com/lucaschang2021/FlowTracer) · [Gallop](https://github.com/lucaschang2021/gallop) · [FinTerminal](https://github.com/lucaschang2021/finterminal)
+[GitHub](https://github.com/lucaschang2021) · [FlowTracer](https://github.com/lucaschang2021/FlowTracer) · [Möbius](https://github.com/lucaschang2021/Mobius) · [Gallop](https://github.com/lucaschang2021/gallop)
 
 <sub>独立的社区贡献不代表与 OpenAI 或其他机构存在雇佣、官方背书或官方关联。</sub>
 
